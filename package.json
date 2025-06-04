@@ -10,11 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@gsap/react": "^2.1.2",
     "@react-three/drei": "^10.1.2",
     "@react-three/fiber": "^9.1.2",
     "@react-three/postprocessing": "^3.0.4",
     "@tailwindcss/vite": "^4.1.8",
+    "framer-motion": "^12.16.0",
     "gsap": "^3.13.0",
     "portfolio-oishy": "file:",
     "postprocessing": "^6.37.3",
