@@ -12,14 +12,20 @@ const App = () => {
     <>
     <NavBar/>
     <Hero/>
-    <AboutMe/>
+    
     <AppShowcase/>
     {/* <LogoShowcase/> */}
+    <AboutMe/>
     <FeatureCards/>
+    
     <Experience/>
     <TechStack/>
     <Contact/>
-      
+    <footer className="flex-center section-padding">
+      <p className="text-white-50 text-sm">
+        © {new Date().getFullYear()} Oishy. All rights reserved.
+      </p>
+    </footer>
     </>
   )
 }
