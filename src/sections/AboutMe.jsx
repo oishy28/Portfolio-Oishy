@@ -3,7 +3,10 @@ import { motion } from "framer-motion";
 
 const AboutMe = () => {
   return (
-    <section id="about" className="section-padding flex flex-col md:flex-row items-center justify-between gap-12 md:gap-20 w-full px-5 md:px-20">
+    <section
+  id="about"
+  className="section-padding flex flex-col md:flex-row items-center justify-between gap-12 md:gap-20 w-full px-5 md:px-20 mb-20"
+>
       {/* Text Section */}
       <motion.div
         initial={{ opacity: 0, x: -40 }}
@@ -21,19 +24,20 @@ const AboutMe = () => {
       </motion.div>
 
       {/* Image Section */}
+      {/* Image Section */}
       <motion.div
         initial={{ opacity: 0, x: 40 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
-        className="flex-1 flex justify-center"
+        className="flex-1 flex justify-center -mt-6 md:-mt-12" // Moved image slightly up
       >
         <img
-        src="../oishy.jpeg" // Make sure it's placed in /public/images/
-        alt="Oishy Akhand"
-        className="rounded-2xl shadow-lg w-full max-w-xs md:max-w-sm object-cover"
+          src="../oishy.jpeg"
+          alt="Oishy Akhand"
+          className="rounded-2xl shadow-lg w-full max-w-xs md:max-w-sm object-cover"
         />
-
       </motion.div>
+
     </section>
   );
 };

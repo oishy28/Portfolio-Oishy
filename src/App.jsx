@@ -7,6 +7,9 @@ import Experience from "./sections/Experience.jsx"
 import TechStack from "./sections/TechStack.jsx"
 import AboutMe from "./sections/AboutMe.jsx"
 import Contact from "./sections/Contact.jsx"
+import Footer from "./sections/Footer.jsx"
+import Artworks from "./sections/ArtWorks.jsx"
+import ParticlesBackground from "./sections/ParticlesBackground.jsx"
 const App = () => {
   return (
     <>
@@ -16,16 +19,15 @@ const App = () => {
     <AppShowcase/>
     {/* <LogoShowcase/> */}
     <AboutMe/>
-    <FeatureCards/>
+    
+    {/* <FeatureCards/> */}
     
     <Experience/>
     <TechStack/>
+    <Artworks/>
     <Contact/>
-    <footer className="flex-center section-padding">
-      <p className="text-white-50 text-sm">
-        © {new Date().getFullYear()} Oishy. All rights reserved.
-      </p>
-    </footer>
+    <Footer/>
+    
     </>
   )
 }

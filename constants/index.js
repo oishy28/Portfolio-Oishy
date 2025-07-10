@@ -15,6 +15,10 @@ const navLinks = [
     name: "About Me",
     link: "#about",
   },
+  {
+    name: "Artworks",
+    link: "#artworks",
+  },
 ];
 
 const words = [
@@ -29,11 +33,12 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 15, suffix: "+", label: "Years of Experience" },
-  { value: 200, suffix: "+", label: "Satisfied Clients" },
-  { value: 108, suffix: "+", label: "Completed Projects" },
-  { value: 90, suffix: "%", label: "Client Retention Rate" },
+  { value: 1, suffix: "", label: "Internship Completed" },
+  { value: 1, suffix: "", label: "Mentorship Program" },
+  { value: 5, suffix: "+", label: "Projects Built" }, // adjust based on your actual number
+  { value: 3, suffix: "+", label: "Tech Stacks Learned" }, // adjust as needed
 ];
+
 
 const logoIconsList = [
   {
@@ -138,7 +143,7 @@ const techStackIcons = [
     rotation: [0, 0, 0],
   },
   {
-    name: "Project Manager",
+    name: "Git Version Control",
     modelPath: "/models/git-svg-transformed.glb",
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
@@ -248,20 +253,26 @@ const socialImgs = [
   {
     name: "insta",
     imgPath: "/images/insta.png",
+    url: "https://www.instagram.com/oishyfatema/",
   },
   {
     name: "fb",
     imgPath: "/images/fb.png",
+    url: "https://www.facebook.com/oishy.akhand.2025/",
   },
   {
-    name: "x",
-    imgPath: "/images/x.png",
+    name: "GitHub",
+    imgPath: "/images/github-logo.png",
+    url: "https://github.com/oishy28",
   },
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
+    url: "https://www.linkedin.com/in/oishy-fatema-akhand-5a6366280/",
   },
 ];
+
+
 
 export {
   words,

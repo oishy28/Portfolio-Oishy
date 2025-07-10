@@ -9,7 +9,7 @@ html,
 body {
   width: 100dvw;
   overflow-x: hidden;
-  background: linear-gradient(50deg, rgb(190, 65, 207) 40%, rgb(214, 192, 235) 100%);
+  background: linear-gradient(50deg, rgb(190, 65, 207) 50%, rgb(214, 192, 235) 100%);
   color: white;
   scroll-behavior: smooth;
   font-family: "Mona Sans", sans-serif;
@@ -145,7 +145,7 @@ section {
       @apply flex;
 
       .inner {
-        @apply px-5 py-2 rounded-lg bg-white text-black group-hover:bg-[rgb(110,30,130)]
+        @apply px-5 py-2 rounded-lg bg-white text-black group-hover:bg-[rgb(66,30,124)]
  transition-colors duration-300;
 
         span {
