@@ -137,12 +137,6 @@ const techStackIcons = [
     rotation: [0, -Math.PI / 2, 0],
   },
   {
-    name: "Interactive Developer",
-    modelPath: "/models/three.js-transformed.glb",
-    scale: 0.05,
-    rotation: [0, 0, 0],
-  },
-  {
     name: "Git Version Control",
     modelPath: "/models/git-svg-transformed.glb",
     scale: 0.05,
@@ -154,7 +148,7 @@ const expCards = [
   {
     review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
     imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
+    logoPath: "/images/",
     title: "Frontend Developer",
     date: "January 2023 - Present",
     responsibilities: [
