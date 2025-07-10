@@ -119,9 +119,9 @@ const techStackImgs = [
 
 const techStackIcons = [
   {
-    name: "React Developer",
-    modelPath: "/models/react_logo-transformed.glb",
-    scale: 1,
+    name: "UI UX Designer",
+    modelPath: "/models/figma-optimized.glb",
+    scale: 3,
     rotation: [0, 0, 0],
   },
   {
@@ -141,6 +141,12 @@ const techStackIcons = [
     modelPath: "/models/git-svg-transformed.glb",
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
+  },
+  {
+    name: "Frontend Developer",
+    modelPath: "/models/react_logo-transformed.glb",
+    scale: 1,
+    rotation: [0, -Math.PI / 6, 0],
   },
 ];
 
