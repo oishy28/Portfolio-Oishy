@@ -146,41 +146,46 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+    review: "Oishy has been a hardworking member of our team at Eastern Bank PLC. Her contributions to our software development projects have been exceptional.",
+    imgPath: "/images/eblexp.png",
+    logoPath: "/images/ebl2.png",
+    title: "Software Engineer Intern",
+    date: "June 2024 - September 2024",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
-    ],
+  "Contributed to enterprise projects at Eastern Bank PLC using ASP.NET MVC, .NET Web API, and Oracle PL/SQL across applications like RMDICRR and DCFCL.",
+  "Authored comprehensive user manuals, participated in UAT cycles, and adapted implementations based on client-driven requirements.",
+  "Collaborated in agile cross-functional teams, leveraging tools like Swagger, IIS, SVN, and Visual Studio while enhancing critical thinking and debugging skills."
+],
+
+  },
+    {
+  review: "Received mentorship and hands-on training in tech and leadership.",
+  imgPath: "/images/gplogo.png",
+  logoPath: "/images/pngegg.png",
+  title: "Platform SHE 5.0 Mentee",
+  company: "Grameenphone",
+  date: "July 2024 - March 2025",
+  responsibilities: [
+    "Engaged in structured mentorship under industry professionals from Grameenphone.",
+    "Participated in technical workshops and leadership development sessions.",
+    "Collaborated with peers on real-world tech challenges and problem-solving exercises.",
+  ],
+
   },
   {
-    review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
-    responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
-    ],
-  },
-  {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
-    responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
-    ],
-  },
+  review: "Actively involved in event management duties for Capture The Flag (CTF) competitions organized by IUTCS- ICT Fest.",
+  imgPath: "/images/fest.png", // You can update this path with the actual image/logo
+  logoPath: "/images/iut.png", // Replace with IUTCS logo path if you have one
+  title: "Assistant Event Management Executive (CTF)",
+  company: "IUT Computer Society (IUTCS)",
+  date: "September 2023 - 2024",
+  responsibilities: [
+    "Planned and coordinated logistics for CTF (Capture The Flag) cybersecurity events.",
+    "Worked closely with the core team to manage registration, scheduling, and on-day execution.",
+    "Assisted in communications, team coordination, and post-event documentation for feedback and improvement.",
+  ],
+   },
+
 ];
 
 const expLogos = [

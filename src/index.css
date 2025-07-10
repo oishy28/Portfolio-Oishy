@@ -244,9 +244,15 @@ section {
     @apply absolute top-0 xl:left-[35.5vw] md:left-10 left-5 h-full flex justify-center;
   }
 
+  /* .timeline {
+  @apply absolute z-50 h-[110%] -top-5 w-12 md:w-28 bg-white opacity-50;
+  } */
+
   .timeline {
-    @apply absolute z-30 h-[110%] -top-10 w-14 md:w-28 bg-black;
-  }
+  @apply absolute z-30 h-[110%] -top-5 w-25 bg-white opacity-50;
+ }
+
+
 
   .timeline-logo {
     @apply md:size-20 size-10 flex-none rounded-full flex justify-center items-center md:-translate-y-7 border border-black-50 bg-black-100;

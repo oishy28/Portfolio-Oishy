@@ -50,7 +50,7 @@ const Experience = () => {
       scrollTrigger: {
         trigger: ".timeline",
         start: "top center",
-        end: "70% center",
+        end: "100% center",
         // Update the animation as the user scrolls
         onUpdate: (self) => {
           // Scale the timeline height as the user scrolls
@@ -83,7 +83,7 @@ const Experience = () => {
           // The text is the trigger element
           trigger: text,
           // Trigger the animation when the text is 60% down the screen
-          start: "top 60%",
+          start: "top 50%",
         },
       });
     }, "<"); // position parameter - insert at the start of the animation
@@ -117,9 +117,10 @@ const Experience = () => {
                       <div className="gradient-line w-1 h-full" />
                     </div>
                     <div className="expText flex xl:gap-20 md:gap-10 gap-5 relative z-20">
-                      <div className="timeline-logo">
+                      <div className="timeline-logo bg-transparent shadow-none rounded-none p-0">
                         <img src={card.logoPath} alt="logo" />
                       </div>
+
                       <div>
                         <h1 className="font-semibold text-3xl">{card.title}</h1>
                         <p className="my-5 text-white-50">
