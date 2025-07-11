@@ -9,7 +9,6 @@ import AboutMe from "./sections/AboutMe.jsx"
 import Contact from "./sections/Contact.jsx"
 import Footer from "./sections/Footer.jsx"
 import Artworks from "./sections/ArtWorks.jsx"
-import ParticlesBackground from "./sections/ParticlesBackground.jsx"
 const App = () => {
   return (
     <>
