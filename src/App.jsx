@@ -8,7 +8,7 @@ import TechStack from "./sections/TechStack.jsx"
 import AboutMe from "./sections/AboutMe.jsx"
 import Contact from "./sections/Contact.jsx"
 import Footer from "./sections/Footer.jsx"
-import Artworks from "./sections/ArtWorks.jsx"
+import Artworks from "./sections/Artworks.jsx"
 import MyResearch from "./sections/MyResearch.jsx"
 const App = () => {
   return (
