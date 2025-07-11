@@ -1,7 +1,6 @@
 import Hero from "./sections/Hero.jsx"
 import AppShowcase from "./sections/ShowcaseSection.jsx"
 import NavBar from "./components/NavBar.jsx"
-import LogoShowcase from "./components/LogoSection.jsx"
 import FeatureCards from "./sections/FeatureCards.jsx"
 import Experience from "./sections/Experience.jsx"
 import TechStack from "./sections/TechStack.jsx"
