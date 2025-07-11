@@ -46,7 +46,7 @@ const AboutMe = () => {
           style={{ perspective: "1000px" }}
         >
           <img
-            src="../oishy.jpeg"
+            src="/images/oishy.jpeg"
             alt="Oishy Akhand"
             className="rounded-2xl shadow-2xl w-full max-w-xs md:max-w-sm object-cover transition duration-700 transform-gpu group-hover:scale-105 group-hover:-translate-y-2"
             style={{
